@@ -1,10 +1,8 @@
 {
-  "category": "PSYCHIC_PHENOMENA",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/exorcism",
     "maintainers": [
       {
@@ -18,433 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "exorcism",
     "name": "Exorcism",
-    "aliases": [
-      {
-        "name": "Ruqya",
-        "language": "Arabic",
-        "region": "Islamic tradition",
-        "meaning": "Islamic exorcism ritual"
-      },
-      {
-        "name": "Deliverance",
-        "region": "Protestant Christianity",
-        "meaning": "Protestant term for exorcism"
-      },
-      {
-        "name": "Major Exorcism",
-        "region": "Catholic Church",
-        "meaning": "Official rite requiring bishop permission"
-      }
-    ],
+    "aliases": [],
     "category": "PSYCHIC_PHENOMENA",
-    "subcategory": "Ritual Practice",
+    "subcategory": "Religious/Spiritual Intervention",
     "tags": [
-      "ritual",
-      "religion",
-      "possession",
-      "demons",
-      "prayer",
-      "spiritual-warfare",
-      "cultural-practice"
+      "folklore",
+      "mythology"
     ],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "Religious or spiritual practice to expel demons or spirits from possessed individuals, performed across multiple faith traditions including Catholic, Protestant, Islamic, Hindu, Buddhist, and Jewish practices.",
-      "full": "Exorcism is a religious or spiritual practice to expel demons, spirits, or other entities from individuals believed to be possessed. Major traditions include Catholic exorcism (Roman Ritual, authorized priest required), Protestant deliverance ministries, Islamic ruqya (Qur'an recitation), and Hindu, Buddhist, and Jewish variations. The Catholic procedure involves an authorized priest, bishop permission, Rite of Exorcism with prayers, commands, holy water, and crucifix. Famous exorcists include Father Gabriele Amorth (Vatican exorcist claiming 60,000+ exorcisms). Famous cases include the Anneliese Michel tragedy (died during exorcism, 1976) and Roland Doe (1949). Modern Church position requires psychiatric evaluation first, considers genuine possession extremely rare, and takes cautious approach. Dangers include documented deaths (Anneliese Michel and others) and delayed psychiatric treatment. Scientific view: ritual may provide psychological relief through placebo effect, but psychiatric treatment is more effective. This is a sacred practice in multiple religions requiring cultural sensitivity."
+      "summary": "Exorcism is a religious or spiritual practice to expel demons, spirits, or other entities from individuals believed to be possessed.",
+      "full": "Exorcism is a religious or spiritual practice to expel demons, spirits, or other entities from individuals believed to be possessed. Practiced across multiple faith traditions including Catholic, Protestant, Islamic, Hindu, Buddhist, and Jewish variations."
     },
     "etymology": {
-      "origin": "From Greek 'exorkismos' meaning 'binding by oath,' from 'exorkizein' (to bind by oath, adjure)",
-      "meaning": "To command or adjure (a spirit) to depart",
-      "first_use": "Ancient practice in multiple traditions"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "PSYCHIC_PHENOMENA",
-      "type": "Ritual Practice",
-      "subtype": "Religious/Spiritual Intervention",
-      "variant": "Multi-traditional"
+      "type": "Religious/Spiritual Intervention",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "possession",
-        "name": "Possession",
-        "relationship": "condition_treated",
-        "description": "State exorcism seeks to remedy"
-      },
-      {
-        "id": "demons",
-        "name": "Demons",
-        "relationship": "target",
-        "description": "Entities exorcism seeks to expel"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
-    "major_traditions": [
-      {
-        "tradition": "Catholic Christianity",
-        "formal_name": "Rite of Exorcism (Rituale Romanum)",
-        "authorization": "Requires bishop permission",
-        "practitioner": "Authorized priest (exorcist)",
-        "requirements": [
-          "Psychiatric evaluation first",
-          "Evidence of genuine possession (not mental illness)",
-          "Bishop authorization",
-          "Multiple sessions often required"
-        ],
-        "procedure": [
-          "Prayers (Litany of Saints)",
-          "Gospel readings",
-          "Commands to demon to depart",
-          "Use of holy water",
-          "Display of crucifix",
-          "Laying on of hands"
-        ],
-        "status": "Active; Church continues to train exorcists"
-      },
-      {
-        "tradition": "Protestant Christianity",
-        "formal_name": "Deliverance Ministry",
-        "authorization": "Varies by denomination",
-        "practitioner": "Pastor or deliverance minister",
-        "requirements": [
-          "Varies widely by denomination",
-          "Some require training, others do not"
-        ],
-        "procedure": [
-          "Prayer",
-          "Commanding demons to leave",
-          "Invoking Jesus's name",
-          "Varies significantly by group"
-        ],
-        "status": "Active in some denominations (Pentecostal, Charismatic)"
-      },
-      {
-        "tradition": "Islam",
-        "formal_name": "Ruqya",
-        "authorization": "Performed by knowledgeable Muslim",
-        "practitioner": "Scholar, imam, or knowledgeable person",
-        "requirements": [
-          "Knowledge of Qur'an and Islamic jurisprudence",
-          "Proper intention (niyyah)",
-          "Avoiding forbidden practices (shirk)"
-        ],
-        "procedure": [
-          "Recitation of specific Qur'anic verses",
-          "Supplications (du'a)",
-          "Blowing on person or water",
-          "Use of blessed water"
-        ],
-        "status": "Widely practiced in Islamic world"
-      },
-      {
-        "tradition": "Hinduism",
-        "formal_name": "Various rituals (vary by region)",
-        "authorization": "Varies",
-        "practitioner": "Priest, tantrik, or ritual specialist",
-        "requirements": [
-          "Varies by tradition and region"
-        ],
-        "procedure": [
-          "Mantras",
-          "Offerings",
-          "Ritual cleansing",
-          "Invocation of deities",
-          "Varies significantly by region"
-        ],
-        "status": "Active in traditional contexts"
-      },
-      {
-        "tradition": "Buddhism",
-        "formal_name": "Various rituals",
-        "authorization": "Varies",
-        "practitioner": "Monk or lama",
-        "requirements": [
-          "Varies by tradition (Theravada, Mahayana, Tibetan)"
-        ],
-        "procedure": [
-          "Chanting of sutras",
-          "Meditation",
-          "Ritual objects",
-          "Varies by tradition"
-        ],
-        "status": "Active in some Buddhist cultures"
-      },
-      {
-        "tradition": "Judaism",
-        "formal_name": "Exorcism (dibbukim)",
-        "authorization": "Rarely performed",
-        "practitioner": "Rabbi (historically)",
-        "requirements": [
-          "Historically rare",
-          "Traditional knowledge required"
-        ],
-        "procedure": [
-          "Prayers",
-          "Psalms",
-          "Hebrew incantations",
-          "Blowing of shofar"
-        ],
-        "status": "Historically practiced, very rare today"
-      }
-    ]
+    "physical": {
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
+    },
+    "abilities": [],
+    "behavior": {
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
+    }
   },
-
+  "distribution": {
+    "range": {
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
+    },
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
+    }
+  },
   "history": {
     "origins": {
-      "cultural_roots": "Ancient practice across multiple religions; exorcism accounts in Bible, Qur'an, Hindu texts, Buddhist scriptures",
-      "earliest_accounts": "Biblical accounts of Jesus performing exorcisms; ancient Jewish practices; pre-Islamic Arabian practices",
-      "development": "Formalized over centuries in different religious traditions"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Ancient",
-        "event": "Jesus performs exorcisms",
-        "significance": "Biblical foundation for Christian exorcism",
-        "source": "New Testament Gospels"
-      },
-      {
-        "date": "1614",
-        "event": "Rituale Romanum published",
-        "significance": "Catholic Church formally codifies exorcism ritual",
-        "source": "Official Church publication"
-      },
-      {
-        "date": "1949",
-        "event": "Roland Doe exorcism",
-        "significance": "Case that inspired The Exorcist; increased public awareness",
-        "source": "Case documentation"
-      },
-      {
-        "date": "1975-1976",
-        "event": "Anneliese Michel exorcism",
-        "significance": "67 sessions over 10 months; woman died; criminal trial of priests and parents",
-        "source": "Court records"
-      },
-      {
-        "date": "1999",
-        "event": "Vatican publishes updated exorcism ritual",
-        "significance": "De Exorcismis et Supplicationibus Quibusdam - modernized procedures",
-        "source": "Vatican publication"
-      },
-      {
-        "date": "2000s-present",
-        "event": "Increased exorcism training",
-        "significance": "Catholic Church reports increased demand; more priests trained",
-        "source": "Various news reports"
-      }
-    ],
-    "modern_era": "Exorcism remains active across multiple religious traditions. Catholic Church continues training exorcists while emphasizing caution. Protestant deliverance ministries active. Islamic ruqya widely practiced. Medical community emphasizes psychiatric treatment. Cultural sensitivity increasingly recognized."
+    "timeline": []
   },
-
-  "famous_practitioners": [
-    {
-      "name": "Father Gabriele Amorth",
-      "affiliation": "Vatican (Catholic Church)",
-      "role": "Chief exorcist of Diocese of Rome",
-      "contribution": "Claimed to perform over 60,000 exorcisms; prominent advocate",
-      "period": "1986-2016",
-      "notes": "Controversial figure; claims disputed by skeptics"
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
     },
-    {
-      "name": "Father Malachi Martin",
-      "affiliation": "Catholic Church",
-      "role": "Exorcist and author",
-      "contribution": "Wrote 'Hostage to the Devil' detailing exorcism accounts",
-      "period": "1920s-1999",
-      "notes": "Popular author; claims subject to skepticism"
-    }
-  ],
-
-  "famous_cases": {
-    "notable": [
-      {
-        "id": "exorcism-anneliese-michel",
-        "name": "Anneliese Michel",
-        "date": {
-          "value": "1975-1976",
-          "precision": "period"
-        },
-        "location": {
-          "description": "Klingenberg, Bavaria",
-          "country": "Germany"
-        },
-        "tradition": "Catholic",
-        "description": "67 exorcism sessions over 10 months. Woman had epilepsy and psychiatric conditions. Died of malnutrition and dehydration. Priests and parents convicted of negligent homicide.",
-        "outcome": "Death; criminal convictions; major controversy",
-        "significance": "Demonstrates extreme danger of exorcism when psychiatric treatment needed",
-        "sources": [
-          "Court records (1978)",
-          "Goodman, F. (2005). The Exorcism of Anneliese Michel"
-        ],
-        "featured": true
-      },
-      {
-        "id": "exorcism-roland-doe",
-        "name": "Roland Doe (pseudonym)",
-        "date": {
-          "value": "1949",
-          "precision": "year"
-        },
-        "location": {
-          "description": "St. Louis area",
-          "country": "United States",
-          "region": "Missouri"
-        },
-        "tradition": "Catholic",
-        "description": "14-year-old boy underwent exorcism. Case inspired William Peter Blatty's novel 'The Exorcist.' Individual lived normal life afterward. Later investigations suggest possible psychiatric issues and hoax elements.",
-        "outcome": "Claimed success",
-        "significance": "Inspired 'The Exorcist'; massive cultural impact",
-        "sources": [
-          "Diary of attending priest",
-          "Opsasnick, M. (1999). Investigation in Strange Magazine"
-        ],
-        "featured": true
-      }
-    ]
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
-  "dangers": {
-    "documented_risks": [
-      {
-        "risk": "Death",
-        "description": "Multiple deaths during exorcisms documented",
-        "examples": ["Anneliese Michel (1976)", "Various other cases globally"],
-        "severity": "Critical"
-      },
-      {
-        "risk": "Delayed psychiatric treatment",
-        "description": "Treating mental illness as possession delays proper medical care",
-        "severity": "High"
-      },
-      {
-        "risk": "Physical abuse",
-        "description": "Restraint, beating, starvation during exorcism",
-        "severity": "High"
-      },
-      {
-        "risk": "Psychological harm",
-        "description": "Reinforcing delusions, trauma from ritual",
-        "severity": "Medium to High"
-      },
-      {
-        "risk": "Neglect",
-        "description": "Withholding food, water, or medical care",
-        "severity": "High"
-      }
-    ],
-    "modern_safeguards": [
-      "Psychiatric evaluation required first (Catholic Church)",
-      "Medical treatment not excluded",
-      "Trained practitioners only",
-      "Oversight and authorization systems",
-      "Recognition that genuine possession is extremely rare"
-    ]
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
   },
-
-  "scientific_perspective": {
-    "view": "No evidence that exorcism expels actual demons or spirits",
-    "explanations": [
-      {
-        "mechanism": "Placebo effect",
-        "description": "Ritual provides psychological relief; expectation of cure creates improvement"
-      },
-      {
-        "mechanism": "Social/family support",
-        "description": "Attention and support from community provides comfort"
-      },
-      {
-        "mechanism": "Psychiatric treatment more effective",
-        "description": "Actual psychiatric care addresses underlying conditions"
-      },
-      {
-        "mechanism": "Natural course of illness",
-        "description": "Some conditions improve over time regardless of intervention"
-      }
-    ],
-    "consensus": "Psychiatric conditions require psychiatric treatment. Exorcism may provide cultural/religious comfort but is not substitute for medical care."
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
-    "sensitivity_note": "⚠️ CULTURAL SENSITIVITY: Exorcism is a sacred practice in multiple world religions. This documentation respects religious beliefs while presenting medical perspectives.",
-    "religious_significance": {
-      "importance": "Central spiritual practice in some traditions; addresses fundamental beliefs about good, evil, and spiritual warfare",
-      "variations": "Practices vary significantly by tradition; understanding cultural context essential",
-      "respect": "Medical professionals should approach with cultural competence while ensuring patient safety"
+    "folklore": {
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "film_tv": [
-        "The Exorcist (1973) - Landmark film; massive cultural impact",
-        "The Exorcism of Emily Rose (2005) - Based on Anneliese Michel",
-        "The Conjuring series (2013-present) - Multiple exorcism depictions",
-        "Constantine (2005) - Supernatural exorcism thriller"
-      ],
-      "impact": "Films have dramatically shaped public perception of exorcism"
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "modern_practice": {
-    "catholic_church": {
-      "current_position": [
-        "Psychiatric evaluation required before exorcism considered",
-        "Genuine possession considered extremely rare",
-        "Medical treatment continues alongside any spiritual intervention",
-        "Only authorized priests may perform major exorcism",
-        "Bishop permission mandatory"
-      ],
-      "training": "Church continues to train exorcists; courses offered in Rome and elsewhere",
-      "reported_demand": "Some reports of increased requests for exorcism in 21st century"
-    },
-    "medical_integration": {
-      "best_practices": [
-        "Psychiatric evaluation for all cases",
-        "Cultural competence in mental health care",
-        "Collaboration between medical and religious communities when appropriate",
-        "Patient safety as primary concern",
-        "Education about psychiatric conditions in culturally appropriate ways"
-      ]
-    }
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "rituale-romanum-1614",
-      "type": "religious text",
-      "title": "Rituale Romanum",
-      "publication": "Catholic Church",
-      "date": "1614"
-    },
-    {
-      "id": "de-exorcismis-1999",
-      "type": "religious text",
-      "title": "De Exorcismis et Supplicationibus Quibusdam",
-      "publication": "Vatican",
-      "date": "1999"
-    },
-    {
-      "id": "amorth-1999",
-      "type": "book",
-      "title": "An Exorcist Tells His Story",
-      "authors": ["Gabriele Amorth"],
-      "publication": "Ignatius Press",
-      "date": "1999",
-      "isbn": "978-0898707106"
-    },
-    {
-      "id": "goodman-2005",
-      "type": "book",
-      "title": "The Exorcism of Anneliese Michel",
-      "authors": ["Felicitas Goodman"],
-      "publication": "Wipf & Stock",
-      "date": "2005",
-      "isbn": "978-1597527187"
-    }
-  ]
+  "sources": []
 }
